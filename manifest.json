@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "A_bobrick",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://obr.nd.ru/course/89e98fd0-61de-520d-c3ae-5368b1ffdaa3/"],
+      "js": ["content.js"]
+    }
+  ]
+
+}
